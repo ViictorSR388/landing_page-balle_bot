@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+    font-size: 100%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding:  25px;
+}
+
+.header-img {
+    height: 70px;
+}
+
+.nav-menu {
+    display: flex;
+    gap: 30px; /* serve para espaçar os itens da nav */
+}
+
+.nav-items {
+    font-family: 'Sarala', sans-serif;
+    color: #FFF2E7;
+    font-weight: 400;
+}
+
+.content {
+    border-top: 0.5px solid #FFF2E7;
+    margin-bottom: 50px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.text-div {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* serve para espaçar os itens da nav */
+}
+
+.text-title {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 65px;
+    color: #FFF2E7;
+}
+
+.text-subtitle {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #ECD6C4;
+}
+
+.btn {
+    background-color: #ECD6C4;
+    width: 185px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: #2F2325;
+}
+
+.btn:hover {
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.main-content-img {
+    height: 430px;
+}
+
+.secondary-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 50px;
+}
+
+.secundary-title {
+    border-top: 0.4px solid #FFF2E7;
+    padding-top: 50px;
+    
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 25px;
+    color:#FFF2E7;
+
+    margin-bottom: 15px;
+}
+
+.secundary-text {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    color:#ECD6C4;
+}
+
+.footer {
+    border-top: 0.4px solid #FFF2E7;
+    padding: 30px;
+
+}
+
+.footer-img {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+}
