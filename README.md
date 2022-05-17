@@ -10,6 +10,6 @@ Um exemplo simples de landing page feito acompanhando o video [LANDING PAGE COM 
 - HTML
 - CSS
 
-<h3 align="center"><a href="https://viictorsr388.github.io/landing_page-balle-bot/index">Resultado</a></h3>
+<h3 align="center"><a href="https://viictorsr388.github.io/landing_page-balle_bot/index">Resultado</a></h3>
 
 ![resultado](https://user-images.githubusercontent.com/71882342/168812914-045d0a68-498e-4943-a562-3215612ce1e8.png)
